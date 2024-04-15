@@ -1,10 +1,10 @@
 import SwiftUI
 
-struct ContentView: View {
+struct VerbView: View {
     var body: some View {
         VStack {
             NavigationView {
-                NavigationLink(destination:  Text("NavigationView")) {
+                NavigationLink(destination:  Text("AdjectiveView")) {
                     Text("Hello, World!")
                 }
             }
